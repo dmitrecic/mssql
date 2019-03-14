@@ -4,10 +4,10 @@ include ("DBconnection.php");
 
 
 $db=new DBconnection();
-$db->setDbHost("DESKTOP-MEN4GHU");
-$db->setDbName("testbaza");
-$db->setDbUser("dmitrecic");
-$db->setDbPass("d02061973");
+$db->setDbHost("msdbhost");
+$db->setDbName("databasename");
+$db->setDbUser("dbusername");
+$db->setDbPass("dbpass");
 
 $conn=$db->connect();
 
